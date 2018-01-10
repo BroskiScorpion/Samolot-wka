@@ -60,7 +60,7 @@ public class PlayerController : MonoBehaviour {
                         target = null;
                     }
                 }
-                rb.velocity = tr.right * rails.railturnspeed * moveHorizontal + tr.up * moveVertical * rails.railturnspeed + thisrb.velocity;
+                rb.velocity = (3 *rb.velocity + tr.right * rails.railturnspeed * moveHorizontal + tr.up * moveVertical * rails.railturnspeed + thisrb.velocity)/4;
                 rb.position = new Vector3(Mathf.Clamp(rb.position.x, boundary.xmin + tr.position.x, boundary.xmax + tr.position.x), Mathf.Clamp(rb.position.y, boundary.ymin + tr.position.y, boundary.ymax + tr.position.y), thisrb.position.z + rails.zrails);
                 rb.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(rb.velocity.y * -tilt, 0.0f, rb.velocity.x * -tilt),0.4f);
             }
