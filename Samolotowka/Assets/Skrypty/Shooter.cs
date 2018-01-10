@@ -7,7 +7,8 @@ public class Shooter : MonoBehaviour {
     public GameObject shoot;
     public float shootspace;
     public bool ready;
-    private float shoottime;
+    public float shoottime;
+    public float dps;
 	void Update () {
 		if(Input.GetButton("Fire1") && ready)
         {
@@ -21,6 +22,17 @@ public class Shooter : MonoBehaviour {
 
             }
         }
-        shoottime -= Time.deltaTime;
+        shoottime -= Time.deltaTime;    
 	}
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Hitable"))
+        {
+            Health enemy = other.gameObject.GetComponent<Health>();
+            if(enemy!=null)
+            {
+                enemy.Damage(dps);
+            }
+        }
+    }
 }

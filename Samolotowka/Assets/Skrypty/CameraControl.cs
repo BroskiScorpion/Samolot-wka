@@ -7,6 +7,7 @@ public class CameraControl : MonoBehaviour {
     public GameObject samolot;
     private Transform tr;
     public bool pierwszaosoba;
+    public PlayerController parentrails;
 	void Start () {
         pierwszaosoba = false;
         tr = GetComponent<Transform>();
@@ -27,8 +28,16 @@ public class CameraControl : MonoBehaviour {
             {
                 pierwszaosoba = true;
                 tr.parent = samolot.transform;
-                tr.localPosition = new Vector3(0.0f, 0.0f, 11.0f);
+                if(parentrails.rails.onrails)
+                {
+                    tr.localPosition = new Vector3(0.0f, 0.0f, 11.0f);
+                }
+                else
+                {
+                    tr.localPosition = new Vector3(0.0f, 0.0f, 6.0f);
+                }
             }
         }
+        tr.localRotation.eulerAngles.Set(0.0f, 0.0f, 0.0f);
 	}
 }
