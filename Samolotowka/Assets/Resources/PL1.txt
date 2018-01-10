@@ -1,0 +1,6 @@
+[Potato]1
+Testujemy dialogi
+[Potato]1
+Pracuj pracuj
+[Potato]1
+A potem zjedź coś zdrowego, na przykład sałatke

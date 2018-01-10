@@ -1,0 +1,327 @@
+fileFormatVersion: 2
+guid: 7c0fbb139828ba84c9a7937fb0ec9a4d
+timeCreated: 1511183204
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Bip001
+    100002: Bip001_Footsteps
+    100004: Bip001_Head
+    100006: Bip001_L_Calf
+    100008: Bip001_L_Clavicle
+    100010: Bip001_L_Foot
+    100012: Bip001_L_Forearm
+    100014: Bip001_L_Hand
+    100016: Bip001_L_Thigh
+    100018: Bip001_L_Toe0
+    100020: Bip001_L_UpperArm
+    100022: Bip001_Neck
+    100024: Bip001_Pelvis
+    100026: Bip001_R_Calf
+    100028: Bip001_R_Clavicle
+    100030: Bip001_R_Foot
+    100032: Bip001_R_Forearm
+    100034: Bip001_R_Hand
+    100036: Bip001_R_Thigh
+    100038: Bip001_R_Toe0
+    100040: Bip001_R_UpperArm
+    100042: Bip001_Spine
+    100044: Box001
+    100046: Box007
+    100048: //RootNode
+    400000: Bip001
+    400002: Bip001_Footsteps
+    400004: Bip001_Head
+    400006: Bip001_L_Calf
+    400008: Bip001_L_Clavicle
+    400010: Bip001_L_Foot
+    400012: Bip001_L_Forearm
+    400014: Bip001_L_Hand
+    400016: Bip001_L_Thigh
+    400018: Bip001_L_Toe0
+    400020: Bip001_L_UpperArm
+    400022: Bip001_Neck
+    400024: Bip001_Pelvis
+    400026: Bip001_R_Calf
+    400028: Bip001_R_Clavicle
+    400030: Bip001_R_Foot
+    400032: Bip001_R_Forearm
+    400034: Bip001_R_Hand
+    400036: Bip001_R_Thigh
+    400038: Bip001_R_Toe0
+    400040: Bip001_R_UpperArm
+    400042: Bip001_Spine
+    400044: Box001
+    400046: Box007
+    400048: //RootNode
+    2300000: Bip001
+    2300002: Bip001_Footsteps
+    2300004: Bip001_Head
+    2300006: Bip001_L_Calf
+    2300008: Bip001_L_Clavicle
+    2300010: Bip001_L_Foot
+    2300012: Bip001_L_Forearm
+    2300014: Bip001_L_Hand
+    2300016: Bip001_L_Thigh
+    2300018: Bip001_L_Toe0
+    2300020: Bip001_L_UpperArm
+    2300022: Bip001_Neck
+    2300024: Bip001_Pelvis
+    2300026: Bip001_R_Calf
+    2300028: Bip001_R_Clavicle
+    2300030: Bip001_R_Foot
+    2300032: Bip001_R_Forearm
+    2300034: Bip001_R_Hand
+    2300036: Bip001_R_Thigh
+    2300038: Bip001_R_Toe0
+    2300040: Bip001_R_UpperArm
+    2300042: Bip001_Spine
+    2300044: Box001
+    2300046: Box007
+    3300000: Bip001
+    3300002: Bip001_Footsteps
+    3300004: Bip001_Head
+    3300006: Bip001_L_Calf
+    3300008: Bip001_L_Clavicle
+    3300010: Bip001_L_Foot
+    3300012: Bip001_L_Forearm
+    3300014: Bip001_L_Hand
+    3300016: Bip001_L_Thigh
+    3300018: Bip001_L_Toe0
+    3300020: Bip001_L_UpperArm
+    3300022: Bip001_Neck
+    3300024: Bip001_Pelvis
+    3300026: Bip001_R_Calf
+    3300028: Bip001_R_Clavicle
+    3300030: Bip001_R_Foot
+    3300032: Bip001_R_Forearm
+    3300034: Bip001_R_Hand
+    3300036: Bip001_R_Thigh
+    3300038: Bip001_R_Toe0
+    3300040: Bip001_R_UpperArm
+    3300042: Bip001_Spine
+    3300044: Box001
+    3300046: Box007
+    4300000: Bip001
+    4300002: Bip001_Footsteps
+    4300004: Bip001_Head
+    4300006: Bip001_L_Calf
+    4300008: Bip001_L_Clavicle
+    4300010: Bip001_L_Foot
+    4300012: Bip001_L_Forearm
+    4300014: Bip001_L_Hand
+    4300016: Bip001_L_Thigh
+    4300018: Bip001_L_Toe0
+    4300020: Bip001_L_UpperArm
+    4300022: Bip001_Neck
+    4300024: Bip001_Pelvis
+    4300026: Bip001_R_Calf
+    4300028: Bip001_R_Clavicle
+    4300030: Bip001_R_Foot
+    4300032: Bip001_R_Forearm
+    4300034: Bip001_R_Hand
+    4300036: Bip001_R_Thigh
+    4300038: Bip001_R_Toe0
+    4300040: Bip001_R_UpperArm
+    4300042: Bip001_Spine
+    4300044: Box001
+    4300046: Box007
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bip001Mat
+    second: {fileID: 2100000, guid: f6e1c7d26b901ff419e4c3cd81ad9ec1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bip001_FootstepsMat
+    second: {fileID: 2100000, guid: c3311d29c2c3f1a4bab5dcd39162e92b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bip001_HeadMat
+    second: {fileID: 2100000, guid: aa1b9cd118e55774f83bd4e7c6451b37, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bip001_L_CalfMat
+    second: {fileID: 2100000, guid: 545bd945341018e4bab80847bad7738c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bip001_L_ClavicleMat
+    second: {fileID: 2100000, guid: e793813fab6189947831db02a6835884, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bip001_L_FootMat
+    second: {fileID: 2100000, guid: 585791ab0ed9f934aa4d20e80a40d6b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bip001_L_ForearmMat
+    second: {fileID: 2100000, guid: 28e10122726729d429acdc7395fc6b4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bip001_L_HandMat
+    second: {fileID: 2100000, guid: 7f89fba648e9d714ab5ed607d31bda5d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bip001_L_ThighMat
+    second: {fileID: 2100000, guid: 9b0348d45d2b14048930ed9fa8b7f0b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bip001_L_Toe0Mat
+    second: {fileID: 2100000, guid: a0e4a1e150feaf94faea933770a1c937, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bip001_L_UpperArmMat
+    second: {fileID: 2100000, guid: 6a7424a506d3d154d8e926a9bb3c829d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bip001_NeckMat
+    second: {fileID: 2100000, guid: c0c0b7fc751f9974cbf6b504b28e2b64, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bip001_PelvisMat
+    second: {fileID: 2100000, guid: b7fe586b269cd6540962e772a26f130a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bip001_R_CalfMat
+    second: {fileID: 2100000, guid: 428eec3f63eb0f24fb6c31bfc3f0c376, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bip001_R_ClavicleMat
+    second: {fileID: 2100000, guid: e734f14385a093c4896f16aa04adbbfa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bip001_R_FootMat
+    second: {fileID: 2100000, guid: 31658615991858942804f6977267c0c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bip001_R_ForearmMat
+    second: {fileID: 2100000, guid: c853301c1dcbf0f409ed6a4d99530f22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bip001_R_HandMat
+    second: {fileID: 2100000, guid: bab61358d653b634ca9cb838e9a03314, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bip001_R_ThighMat
+    second: {fileID: 2100000, guid: 8990ca4811715e445bec15319ab634cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bip001_R_Toe0Mat
+    second: {fileID: 2100000, guid: ccdf40d56c90df44eaafd7a5ebfdf9a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bip001_R_UpperArmMat
+    second: {fileID: 2100000, guid: f42a937b50c2dfd4d9294854958b1ad9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bip001_SpineMat
+    second: {fileID: 2100000, guid: c62b55874965ed041b25422c7b88a35e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box001Mat
+    second: {fileID: 2100000, guid: 8f4e2b3ff29e94b40aef83ed18e00683, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box007Mat
+    second: {fileID: 2100000, guid: ea97b10ccac5f6346ac547356560efc0, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
